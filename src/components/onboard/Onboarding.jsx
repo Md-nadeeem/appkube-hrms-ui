@@ -362,7 +362,7 @@ const datetoshow = personal.dob ? moment(personal.dob, 'YYYY/MM/DD').toDate() : 
             <DatePicker
               selected={datetoshow}
               onChange={handleDateChange}
-              placeholderText="DD/MM/YYYY"
+              placeholderText="Date of birth"
               className="p-1 mb-2 border border-gray-300 outline-none w-[100%] rounded-none border-none"
               maxDate={moment().subtract(18, 'years').toDate()}
               dateFormat="dd/MM/yyyy"
